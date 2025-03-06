@@ -12,3 +12,10 @@ Got questions? Feel free to [email me](mailto:david.hiltenbrand@mongodb.com) or 
 Explore the capabilities of MongoDB Atlas Search through interactive playgrounds without needing to deploy anything.
 
 [Visit the Atlas Search Playgrounds](https://www.mongodb.com/atlas/search/playground)
+
+## Snippets for Features of Atlas Search
+
+* [Autocomplete](autocomplete.md)
+* [Facets](facets.md)
+* [Fuzzy Search](fuzzySearch.md)
+* [Synonyms](synonyms.md)
