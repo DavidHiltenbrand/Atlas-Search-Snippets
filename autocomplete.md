@@ -1,4 +1,4 @@
-# Code Sandbox Snippets for Fuzzy Search
+# Code Sandbox Snippets for Autocomplete
 ## Query
 ```json
 [
