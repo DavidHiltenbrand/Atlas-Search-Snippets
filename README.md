@@ -16,6 +16,7 @@ Explore the capabilities of MongoDB Atlas Search through interactive playgrounds
 ## Snippets for Features of Atlas Search
 
 * [Autocomplete](autocomplete.md)
+* [Autcomplete with a custom stopword analyzer](autocompleteCustomStopWordAnalyzer.md)
 * [Facets](facets.md)
 * [Fuzzy Search](fuzzySearch.md)
 * [Synonyms](synonyms.md)
