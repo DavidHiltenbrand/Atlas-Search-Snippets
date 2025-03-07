@@ -5,23 +5,11 @@
   {
     $search: {
       index: "default",
-      text: {
-        query: "John",
-        path: {
-          wildcard: "*"
-        },
-        fuzzy: {maxEdits: 2 }
-      },
-      scoreDetails: true
-    }
-  },
-  {
-    "$project": {
-      "_id": 1,
-      "name": 1,
-      "description": 1,
-      "score": { "$meta": "searchScore" },
-      //"scoreDetails": { "$meta": "searchScoreDetails" }
+      "autocomplete": {
+        "query": "ca",
+//run with "C", then "Ca", then "Car" then "Carl", examining the results with each additional character typed
+        "path": "searchField"
+      }
     }
   }
 ]
@@ -30,7 +18,13 @@
 ```json
 {
   "mappings": {
-    "dynamic": true
+    "dynamic": true,
+    "fields": {
+      "searchField": {
+        "type": "autocomplete",
+        "analyzer": "lucene.standard"
+      }
+    }
   }
 }
 ```
@@ -39,30 +33,40 @@
 [
   {
     "_id": 1,
-    "field": "value"
+    "searchField": "Carl Jones"
   },
   {
     "_id": 2,
-    "field": "value"
+    "searchField": "Carl Smith"
   },
   {
     "_id": 3,
-    "field": "value"
+    "searchField": "Captain Hollingsworth"
   },
   {
     "_id": 4,
-    "field": "value"
+    "searchField": "Carey Dearborn"
+  },
+  {
+    "_id": 5,
+    "searchField": "Cindy Mills"
   }
 ]
 ```
 ## Results
 ```json
-{
-  "documents": [
-    {
-    },
-    {
-    }
-  ]
-}
+[
+  {
+    "_id": 1,
+    "searchField": "Carl Jones"
+  },
+  {
+    "_id": 2,
+    "searchField": "Carl Smith"
+  },
+  {
+    "_id": 4,
+    "searchField": "Carey Dearborn"
+  }
+]
 ```
