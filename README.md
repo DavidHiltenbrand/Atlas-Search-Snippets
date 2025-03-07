@@ -1,6 +1,7 @@
 # Atlas-Search-Snippets
 Simple examples of Atlas Search features to be used in Search Playground Code Sandboxes. Copy the snippets index, query, and data source into a sandbox to explore the features.
 
+![Atlas Search Get Started img. Credit: https://www.mongodb.com/docs/atlas/images/atlas-search-plp/get-started.svg](https://github.com/DavidHiltenbrand/Atlas-Search-Snippets/blob/main/img/Atlas-Search-get-started.svg)
 
 ## Maintainer
 David Hiltenbrand - Senior Solutions Architect @ [MongoDB](https://www.mongodb.com)
