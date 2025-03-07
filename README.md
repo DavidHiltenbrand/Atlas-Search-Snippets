@@ -18,6 +18,6 @@ Explore the capabilities of MongoDB Atlas Search through interactive playgrounds
 
 * [Autocomplete](autocomplete.md)
 * [Autcomplete with a custom stopword analyzer](autocompleteCustomStopWordAnalyzer.md)
-* [Facets](facets.md)
+* [Facets (COMING SOON)](facets.md)
 * [Fuzzy Search](fuzzySearch.md)
-* [Synonyms](synonyms.md)
+* [Synonyms (COMING SOON)](synonyms.md)
