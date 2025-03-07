@@ -1,5 +1,5 @@
 # Atlas-Search-Snippets
-Simple examples of Atlas Search features to be used in Search Playground Code Sandboxes
+Simple examples of Atlas Search features to be used in Search Playground Code Sandboxes. Copy the snippets index, query, and data source into a sandbox to explore the features.
 
 
 ## Maintainer
