@@ -1,6 +1,6 @@
 # Code Sandbox Snippets for Fuzzy Search
 
-![GIF showing autocomplete with the custom stopwords in action](https://github.com/DavidHiltenbrand/Atlas-Search-Snippets/img/autcomplete-with-custom-stopwords.gif)
+![GIF showing autocomplete with the custom stopwords in action](https://github.com/DavidHiltenbrand/Atlas-Search-Snippets/blob/main/img/autcomplete-with-custom-stopwords.gif)
 
 ## Query
 ```json
